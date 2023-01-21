@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(190, 194, 196);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px;
+    border-color: red;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+
+}
+.side{
+    text-align: right;
+}
+.vert{
+    text-align: center;
+}
+.quotes{
+    /* box-sizing: border-box; */
+    text-align: center;
+    /* height: 20px; */
+    width: 60%;
+    border: 5px ;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25%;
+    background-color: rgb(182, 139, 139);
+}
+.total{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 30.33%;
+    padding: 10px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+.prep{
+    width: 60%;
+}
+.pre{
+    padding: 10px;
+    float: right;
+    height: 200px;
+    width: 300px;
+}
